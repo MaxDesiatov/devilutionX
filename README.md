@@ -9,6 +9,49 @@ Nightly builds | Platform
 
 ![Discord Channel](https://avatars3.githubusercontent.com/u/1965106?s=16&v=4) [Discord Chat Channel](https://discord.gg/aQBQdDe)
 
+
+# iOS build setup
+
+### Instructions from git
+
+Grab the iOS-arm64 branch from the github repo.
+
+```bash
+git clone git@github.com:richstoner/devilutionX.git --branch iOS-arm64
+```
+
+Grab the build dependencies (SDL2, SDL2_ttf, SDL2_mixer)
+
+```bash
+cd ./devliutionX/Xcode-iOS
+./fetch-dependencies.sh
+```
+
+### If you want to build and run in a simulator (iphone, ipad, etc)
+
+1. Checkout this tag
+
+```bash
+git checkout ios_simulator
+```
+
+2. Copy the ```diabdat.mpq``` into the ```devilutionX/Xcode-iOS/devilutionX``` folder. 
+
+3. Open ```devilutionX/Xcode-iOS/devilutionX.xcodeproj``` 
+
+4. Build all of the individual library targets (TODO: update the project to do this automatically)
+
+    PKWare, Radon, StormLib, devilution, libSDL-iOS, libSDL_ttf-iOS, libSDL_mixer-iOS
+
+5. Build and run devilutionX target
+
+
+
+
+## Additional information from the fork 
+
+---
+
 # How To Play:
  - Copy diabdat.mpq from your CD (or GoG install folder) to the DevilutionX install folder or data folder; make sure it is all lowercase. The DeviliutionX install folder is the one that contains the DevilutionX executable. The data folder path may differ depending on OS version and security settings, but will normally be as follows:
     - macOS `~/Library/Application Support/diasurgical/devilution`
