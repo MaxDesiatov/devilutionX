@@ -1,6 +1,20 @@
 #ifndef __DIABLO_H__
 #define __DIABLO_H__
 
+#ifdef TARGET_OS_IPHONE
+#define _VA_LIST_T
+
+#if __is_target_environment(simulator)
+#define TARGET_CPU_X86_64 1
+#else
+#define TARGET_CPU_ARM64 1
+#endif
+
+#include <cstdint>
+#include <cstdarg>
+
+#endif
+
 #include <SDL.h>
 
 #ifdef USE_SDL1

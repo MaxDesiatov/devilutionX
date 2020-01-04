@@ -449,6 +449,7 @@
 		D125708323C0E5020068817F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "Xcode-iOS/devilutionx/AppDelegate.h"; sourceTree = "<group>"; };
 		D146801723C0CD870024BA92 /* miniwin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = miniwin.h; path = SourceS/miniwin.h; sourceTree = "<group>"; };
 		D146801823C0CDF30024BA92 /* diablo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = diablo.h; path = Source/diablo.h; sourceTree = "<group>"; };
+		D14EA83123C1424600EE8E53 /* dsound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dsound.h; path = SourceX/miniwin/dsound.h; sourceTree = "<group>"; };
 		D1B1B4DC23C0F90600804C72 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D1B1B4DE23C0F93A00804C72 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		D1B1B4E023C0F95800804C72 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -614,50 +615,39 @@
 		652F01A5445C4EE1BD53E1EE /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				D125707823C0D2DC0068817F /* fonts.cpp */,
-				D125707323C0D2B00068817F /* game_controller.cpp */,
-				D125707223C0D2B00068817F /* joystick.cpp */,
-				D125707423C0D2B00068817F /* kbcontroller.cpp */,
-				D125706523C0D2530068817F /* controller_motion.cpp */,
-				D125706223C0D2530068817F /* controller.cpp */,
-				D125706323C0D2530068817F /* game_controls.cpp */,
-				D125706423C0D2530068817F /* menu_controls.cpp */,
-				D125706023C0D2530068817F /* plrctrls.cpp */,
-				D125706123C0D2530068817F /* touch.cpp */,
+				3BB9C8F2CFD3496E8D4A51C5 /* appfat.cpp */,
 				D125704523C0D1A40068817F /* art_draw.cpp */,
 				D125704823C0D1A40068817F /* art.cpp */,
-				D125704323C0D1A30068817F /* button.cpp */,
-				D125704723C0D1A40068817F /* credits_lines.cpp */,
-				D125704123C0D1A30068817F /* errorart.cpp */,
-				D125704623C0D1A40068817F /* scrollbar.cpp */,
-				D125704023C0D1A30068817F /* selok.cpp */,
-				D125704923C0D1A40068817F /* selyesno.cpp */,
-				D125704223C0D1A30068817F /* text_draw.cpp */,
-				D125703F23C0D1A30068817F /* text.cpp */,
-				D125704423C0D1A40068817F /* ttf_render_wrapped.cpp */,
-				D125703E23C0D16A0068817F /* devilution.h */,
-				D146801823C0CDF30024BA92 /* diablo.h */,
-				D146801723C0CD870024BA92 /* miniwin.h */,
-				3BB9C8F2CFD3496E8D4A51C5 /* appfat.cpp */,
 				30849DCC74AB44A38B86C7A4 /* automap.cpp */,
+				D125704323C0D1A30068817F /* button.cpp */,
 				2A5B95B76E6A4F0C99E50442 /* capture.cpp */,
 				47930305D44B48AFA3D7264F /* codec.cpp */,
 				9071838230EC489286337DE1 /* control.cpp */,
+				D125706523C0D2530068817F /* controller_motion.cpp */,
+				D125706223C0D2530068817F /* controller.cpp */,
+				D125704723C0D1A40068817F /* credits_lines.cpp */,
 				7BE8E351295E45D48AAB963A /* cursor.cpp */,
 				32170A9601F74E808329B567 /* dead.cpp */,
 				B054F90301D7428AABC4A717 /* debug.cpp */,
+				D125703E23C0D16A0068817F /* devilution.h */,
 				EFFF816D3CB143E1A6C58AFE /* diablo.cpp */,
+				D146801823C0CDF30024BA92 /* diablo.h */,
 				C25ADA37E96D43439DD67B77 /* doom.cpp */,
 				3F89CC4D8BA94E9A9C77C8ED /* drlg_l1.cpp */,
 				C0F23432219D4C96B5DA293C /* drlg_l2.cpp */,
 				85EAFDA8BDFF4343B91CB316 /* drlg_l3.cpp */,
 				6113871EEC594D41A4035F56 /* drlg_l4.cpp */,
+				D14EA83123C1424600EE8E53 /* dsound.h */,
 				B590DF2D0CAD426ABBB05CBB /* dthread.cpp */,
 				FB383523975444B39A8C1ACF /* effects.cpp */,
 				2BB2DE80B0444CD79756780F /* encrypt.cpp */,
 				CE5DCC6F20684476BC504BA6 /* engine.cpp */,
 				7B257D3F80E2438884DEA9F8 /* error.cpp */,
+				D125704123C0D1A30068817F /* errorart.cpp */,
 				79DF5B8396DB427E84097A9C /* fault.cpp */,
+				D125707823C0D2DC0068817F /* fonts.cpp */,
+				D125707323C0D2B00068817F /* game_controller.cpp */,
+				D125706323C0D2530068817F /* game_controls.cpp */,
 				AE267FCF99294D54A8531061 /* gamemenu.cpp */,
 				39C69D1B6B2849F288D33ECC /* gendung.cpp */,
 				77D1108C71624E7DA394330E /* gmenu.cpp */,
@@ -667,10 +657,14 @@
 				8F7DA655CBB94EC28F9AEA48 /* inv.cpp */,
 				FCBF3CAB8CF14CA8A1E0ED8B /* itemdat.cpp */,
 				3F280B9B2D0B43C9A15C9B8F /* items.cpp */,
+				D125707223C0D2B00068817F /* joystick.cpp */,
+				D125707423C0D2B00068817F /* kbcontroller.cpp */,
 				81CC5FF9A2C04B848BD9C4E2 /* lighting.cpp */,
 				E3E01BC88F2D4D61806E19B2 /* loadsave.cpp */,
 				234AB08693A64D9EB680EEAB /* mainmenu.cpp */,
+				D125706423C0D2530068817F /* menu_controls.cpp */,
 				D453307175A74B67829F81B6 /* minitext.cpp */,
+				D146801723C0CD870024BA92 /* miniwin.h */,
 				82EEE6A1CE804332BE4A0E62 /* misdat.cpp */,
 				07BD66488DB549C0BAAABAE0 /* missiles.cpp */,
 				BDCCCEA6F6DB4CA48A798EE3 /* monstdat.cpp */,
@@ -688,25 +682,33 @@
 				8C79E3303F5F4517942AF6B5 /* path.cpp */,
 				5C2D6E88C7D94FA2A678C074 /* pfile.cpp */,
 				7AF28497CE0A427DA54296FE /* player.cpp */,
+				D125706023C0D2530068817F /* plrctrls.cpp */,
 				33B919BA990F4AA6867183F7 /* plrmsg.cpp */,
 				627E1E355C73441DAC7EDD3E /* portal.cpp */,
 				F928C727570C4691AF221C7B /* quests.cpp */,
 				69C5DF531F3E49B28DDDC23B /* render.cpp */,
 				1765A483E8C04DA9A26CA4C9 /* restrict.cpp */,
+				D125704623C0D1A40068817F /* scrollbar.cpp */,
 				EA3F9155D52E40A19542C565 /* scrollrt.cpp */,
+				D125704023C0D1A30068817F /* selok.cpp */,
+				D125704923C0D1A40068817F /* selyesno.cpp */,
 				07E51443B2E94D7D9F0EA813 /* setmaps.cpp */,
 				134C4130D88640C386D7251B /* sha.cpp */,
 				9E50C221509D4A6AAB43FAA4 /* spelldat.cpp */,
 				A6DDB5DF88264723867DA5C8 /* spells.cpp */,
 				FD700C9E75514460B3C77540 /* stores.cpp */,
 				9429C3C795274560B7EC0B45 /* sync.cpp */,
+				D125704223C0D1A30068817F /* text_draw.cpp */,
+				D125703F23C0D1A30068817F /* text.cpp */,
 				AD5BB016735E4C5C8AEB62E7 /* textdat.cpp */,
 				515AECF40B104947A5DA27DE /* themes.cpp */,
 				C326465DF7364DC7B01B20E3 /* tmsg.cpp */,
+				D125706123C0D2530068817F /* touch.cpp */,
 				86C00ABB0BC943C7B6D34557 /* town.cpp */,
 				9133F997060644F785B2ECAB /* towners.cpp */,
 				70FD6A04AFA14672B9A7EA73 /* track.cpp */,
 				886307E03CAB4CDA8C97E92D /* trigs.cpp */,
+				D125704423C0D1A40068817F /* ttf_render_wrapped.cpp */,
 				01A06EAA915F4FDABDCDB765 /* wave.cpp */,
 			);
 			name = "Source Files";
@@ -1409,6 +1411,7 @@
 					DEVILUTION_STUB,
 					_DEBUG,
 					FASTER,
+					"TARGET_OS_IPHONE=1",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
@@ -1416,6 +1419,7 @@
 					"${SOURCE_ROOT}/SourceS",
 					"${SOURCE_ROOT}/SDL/include",
 					"${SOURCE_ROOT}/SDL2_mixer",
+					"${SOURCE_ROOT}/Xcode-iOS",
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -1707,6 +1711,7 @@
 					DEVILUTION_STUB,
 					_DEBUG,
 					FASTER,
+					"TARGET_OS_IPHONE=1",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
@@ -1714,6 +1719,7 @@
 					"${SOURCE_ROOT}/SourceS",
 					"${SOURCE_ROOT}/SDL/include",
 					"${SOURCE_ROOT}/SDL2_mixer",
+					"${SOURCE_ROOT}/Xcode-iOS",
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -1835,6 +1841,7 @@
 					DEVILUTION_STUB,
 					_DEBUG,
 					FASTER,
+					"TARGET_OS_IPHONE=1",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
@@ -1842,6 +1849,7 @@
 					"${SOURCE_ROOT}/SourceS",
 					"${SOURCE_ROOT}/SDL/include",
 					"${SOURCE_ROOT}/SDL2_mixer",
+					"${SOURCE_ROOT}/Xcode-iOS",
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -1977,6 +1985,7 @@
 					"${SOURCE_ROOT}/SDL2_ttf",
 					"${SOURCE_ROOT}/SDL2_mixer",
 					"${SOURCE_ROOT}/SDL/src/video/uikit",
+					"${SOURCE_ROOT}/Xcode-iOS",
 				);
 				INFOPLIST_FILE = "Xcode-iOS/devilutionx/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
@@ -2286,6 +2295,7 @@
 					DEVILUTION_STUB,
 					_DEBUG,
 					FASTER,
+					"TARGET_OS_IPHONE=1",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
@@ -2293,6 +2303,7 @@
 					"${SOURCE_ROOT}/SourceS",
 					"${SOURCE_ROOT}/SDL/include",
 					"${SOURCE_ROOT}/SDL2_mixer",
+					"${SOURCE_ROOT}/Xcode-iOS",
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
