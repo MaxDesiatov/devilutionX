@@ -1,8 +1,8 @@
 #ifndef SPAWN
 
-#include <algorithm>
-
 #include "diablo.h"
+
+#include <algorithm>
 
 DEVILUTION_BEGIN_NAMESPACE
 

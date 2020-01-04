@@ -54,7 +54,7 @@ void init_create_window()
 	SDL_DisableScreenSaver();
 }
 
-void init_archives(LPSTR mpqPath)
+void init_archives()
 {
 	HANDLE fh;
 	memset(&fileinfo, 0, sizeof(fileinfo));

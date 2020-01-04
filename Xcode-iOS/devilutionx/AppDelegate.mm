@@ -7,18 +7,32 @@
 
 #import "AppDelegate.h"
 
+#include "diablo.h"
+#include <cstring>
+
 @interface AppDelegate ()
 
 @end
 
+@implementation SDLUIKitDelegate (extra)
+
++ (NSString *)getAppDelegateClassName {
+    return @"AppDelegate";
+}
+@end
+
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [super application:application didFinishLaunchingWithOptions:launchOptions];
+
     // Override point for customization after application launch.
+
+    NSString *path = [NSBundle.mainBundle URLForResource:@"diabdat" withExtension:@"mpq"].URLByDeletingLastPathComponent.path;
+    strncpy(dvl::diabdat_mpq_path, path.UTF8String, path.length);
+
     return YES;
 }
-
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -45,6 +59,5 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
-
 
 @end
