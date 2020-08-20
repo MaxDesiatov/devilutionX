@@ -265,34 +265,6 @@
 			remoteGlobalIDString = AA53152E1FE1016F0025C9BE;
 			remoteInfo = "libSDL_ttf-tvOS";
 		};
-		D1686DA023C0C55400F713E4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CE2DB25D22C7D9B30053589E /* SDL.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 52ED1E5C222889500061FCE0;
-			remoteInfo = "libSDL-iOS-dylib";
-		};
-		D1686DA223C0C55400F713E4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CE2DB25D22C7D9B30053589E /* SDL.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F3E3C7572241389A007D243C;
-			remoteInfo = "libSDL-tvOS-dylib";
-		};
-		D1686DA423C0C55400F713E4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CE2DB25D22C7D9B30053589E /* SDL.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F3E3C65222406928007D243C;
-			remoteInfo = "libSDLmain-iOS";
-		};
-		D1686DA623C0C55400F713E4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CE2DB25D22C7D9B30053589E /* SDL.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F3E3C75F224138AE007D243C;
-			remoteInfo = "libSDLmain-tvOS";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -450,6 +422,75 @@
 		D146801723C0CD870024BA92 /* miniwin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = miniwin.h; path = SourceS/miniwin.h; sourceTree = "<group>"; };
 		D146801823C0CDF30024BA92 /* diablo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = diablo.h; path = Source/diablo.h; sourceTree = "<group>"; };
 		D14EA83123C1424600EE8E53 /* dsound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dsound.h; path = SourceX/miniwin/dsound.h; sourceTree = "<group>"; };
+		D15FE8E023C352940044F70C /* appfat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = appfat.h; path = Source/appfat.h; sourceTree = "<group>"; };
+		D15FE8EB23C352940044F70C /* doom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = doom.h; path = Source/doom.h; sourceTree = "<group>"; };
+		D15FE8EC23C352940044F70C /* engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = engine.h; path = Source/engine.h; sourceTree = "<group>"; };
+		D15FE8ED23C352940044F70C /* missiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = missiles.h; path = Source/missiles.h; sourceTree = "<group>"; };
+		D15FE8EE23C352940044F70C /* capture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = capture.h; path = Source/capture.h; sourceTree = "<group>"; };
+		D15FE8EF23C352940044F70C /* path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = path.h; path = Source/path.h; sourceTree = "<group>"; };
+		D15FE8F023C352940044F70C /* player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = player.h; path = Source/player.h; sourceTree = "<group>"; };
+		D15FE8F123C352940044F70C /* scrollrt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = scrollrt.h; path = Source/scrollrt.h; sourceTree = "<group>"; };
+		D15FE8F223C352940044F70C /* dead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dead.h; path = Source/dead.h; sourceTree = "<group>"; };
+		D15FE8F323C352940044F70C /* render.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = render.h; path = Source/render.h; sourceTree = "<group>"; };
+		D15FE8F423C352940044F70C /* sha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sha.h; path = Source/sha.h; sourceTree = "<group>"; };
+		D15FE8F523C352940044F70C /* restrict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = restrict.h; path = Source/restrict.h; sourceTree = "<group>"; };
+		D15FE8F623C352940044F70C /* themes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = themes.h; path = Source/themes.h; sourceTree = "<group>"; };
+		D15FE8F723C352940044F70C /* minitext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = minitext.h; path = Source/minitext.h; sourceTree = "<group>"; };
+		D15FE8F823C352940044F70C /* itemdat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = itemdat.h; path = Source/itemdat.h; sourceTree = "<group>"; };
+		D15FE8F923C352950044F70C /* dx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dx.h; path = Source/dx.h; sourceTree = "<group>"; };
+		D15FE8FA23C352950044F70C /* objects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = objects.h; path = Source/objects.h; sourceTree = "<group>"; };
+		D15FE8FB23C352950044F70C /* loadsave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = loadsave.h; path = Source/loadsave.h; sourceTree = "<group>"; };
+		D15FE8FC23C352950044F70C /* monster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = monster.h; path = Source/monster.h; sourceTree = "<group>"; };
+		D15FE8FD23C352950044F70C /* spelldat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = spelldat.h; path = Source/spelldat.h; sourceTree = "<group>"; };
+		D15FE8FE23C352950044F70C /* sync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sync.h; path = Source/sync.h; sourceTree = "<group>"; };
+		D15FE8FF23C352950044F70C /* palette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = palette.h; path = Source/palette.h; sourceTree = "<group>"; };
+		D15FE90023C352950044F70C /* gamemenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gamemenu.h; path = Source/gamemenu.h; sourceTree = "<group>"; };
+		D15FE90123C352950044F70C /* setmaps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = setmaps.h; path = Source/setmaps.h; sourceTree = "<group>"; };
+		D15FE90223C352950044F70C /* trigs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = trigs.h; path = Source/trigs.h; sourceTree = "<group>"; };
+		D15FE90323C352950044F70C /* mainmenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mainmenu.h; path = Source/mainmenu.h; sourceTree = "<group>"; };
+		D15FE90423C352950044F70C /* error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = error.h; path = Source/error.h; sourceTree = "<group>"; };
+		D15FE90523C352950044F70C /* inv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = inv.h; path = Source/inv.h; sourceTree = "<group>"; };
+		D15FE90623C352950044F70C /* effects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = effects.h; path = Source/effects.h; sourceTree = "<group>"; };
+		D15FE90723C352950044F70C /* multi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = multi.h; path = Source/multi.h; sourceTree = "<group>"; };
+		D15FE90823C352960044F70C /* objdat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = objdat.h; path = Source/objdat.h; sourceTree = "<group>"; };
+		D15FE90923C352960044F70C /* drlg_l2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = drlg_l2.h; path = Source/drlg_l2.h; sourceTree = "<group>"; };
+		D15FE90A23C352960044F70C /* mpqapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mpqapi.h; path = Source/mpqapi.h; sourceTree = "<group>"; };
+		D15FE90B23C352960044F70C /* stores.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stores.h; path = Source/stores.h; sourceTree = "<group>"; };
+		D15FE90C23C352960044F70C /* tmsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tmsg.h; path = Source/tmsg.h; sourceTree = "<group>"; };
+		D15FE90D23C352960044F70C /* help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = help.h; path = Source/help.h; sourceTree = "<group>"; };
+		D15FE90E23C352960044F70C /* misdat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = misdat.h; path = Source/misdat.h; sourceTree = "<group>"; };
+		D15FE90F23C352960044F70C /* spells.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = spells.h; path = Source/spells.h; sourceTree = "<group>"; };
+		D15FE91023C352960044F70C /* towners.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = towners.h; path = Source/towners.h; sourceTree = "<group>"; };
+		D15FE91123C352960044F70C /* nthread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nthread.h; path = Source/nthread.h; sourceTree = "<group>"; };
+		D15FE91223C352960044F70C /* control.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = control.h; path = Source/control.h; sourceTree = "<group>"; };
+		D15FE91323C352960044F70C /* interfac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = interfac.h; path = Source/interfac.h; sourceTree = "<group>"; };
+		D15FE91423C352960044F70C /* pack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pack.h; path = Source/pack.h; sourceTree = "<group>"; };
+		D15FE91523C352960044F70C /* pfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pfile.h; path = Source/pfile.h; sourceTree = "<group>"; };
+		D15FE91623C352960044F70C /* portal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = portal.h; path = Source/portal.h; sourceTree = "<group>"; };
+		D15FE91723C352970044F70C /* gendung.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gendung.h; path = Source/gendung.h; sourceTree = "<group>"; };
+		D15FE91823C352970044F70C /* drlg_l1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = drlg_l1.h; path = Source/drlg_l1.h; sourceTree = "<group>"; };
+		D15FE91923C352970044F70C /* dthread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dthread.h; path = Source/dthread.h; sourceTree = "<group>"; };
+		D15FE91A23C352970044F70C /* town.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = town.h; path = Source/town.h; sourceTree = "<group>"; };
+		D15FE91B23C352970044F70C /* init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = init.h; path = Source/init.h; sourceTree = "<group>"; };
+		D15FE91C23C352970044F70C /* textdat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = textdat.h; path = Source/textdat.h; sourceTree = "<group>"; };
+		D15FE91D23C352970044F70C /* gmenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gmenu.h; path = Source/gmenu.h; sourceTree = "<group>"; };
+		D15FE91E23C352970044F70C /* cursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cursor.h; path = Source/cursor.h; sourceTree = "<group>"; };
+		D15FE91F23C352970044F70C /* drlg_l4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = drlg_l4.h; path = Source/drlg_l4.h; sourceTree = "<group>"; };
+		D15FE92023C352970044F70C /* sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sound.h; path = Source/sound.h; sourceTree = "<group>"; };
+		D15FE92123C352970044F70C /* encrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = encrypt.h; path = Source/encrypt.h; sourceTree = "<group>"; };
+		D15FE92223C352970044F70C /* track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = track.h; path = Source/track.h; sourceTree = "<group>"; };
+		D15FE92323C352970044F70C /* wave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wave.h; path = Source/wave.h; sourceTree = "<group>"; };
+		D15FE92423C352970044F70C /* lighting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lighting.h; path = Source/lighting.h; sourceTree = "<group>"; };
+		D15FE92523C352970044F70C /* items.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = items.h; path = Source/items.h; sourceTree = "<group>"; };
+		D15FE92623C352970044F70C /* plrmsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = plrmsg.h; path = Source/plrmsg.h; sourceTree = "<group>"; };
+		D15FE92723C352980044F70C /* movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = movie.h; path = Source/movie.h; sourceTree = "<group>"; };
+		D15FE92823C352980044F70C /* automap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = automap.h; path = Source/automap.h; sourceTree = "<group>"; };
+		D15FE92923C352980044F70C /* quests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = quests.h; path = Source/quests.h; sourceTree = "<group>"; };
+		D15FE92A23C352980044F70C /* drlg_l3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = drlg_l3.h; path = Source/drlg_l3.h; sourceTree = "<group>"; };
+		D15FE92B23C352980044F70C /* debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = debug.h; path = Source/debug.h; sourceTree = "<group>"; };
+		D15FE92C23C352980044F70C /* msg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = msg.h; path = Source/msg.h; sourceTree = "<group>"; };
+		D15FE92D23C352980044F70C /* codec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = codec.h; path = Source/codec.h; sourceTree = "<group>"; };
+		D15FE92E23C352980044F70C /* monstdat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = monstdat.h; path = Source/monstdat.h; sourceTree = "<group>"; };
 		D1B1B4DC23C0F90600804C72 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D1B1B4DE23C0F93A00804C72 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		D1B1B4E023C0F95800804C72 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -616,100 +657,169 @@
 			isa = PBXGroup;
 			children = (
 				3BB9C8F2CFD3496E8D4A51C5 /* appfat.cpp */,
+				D15FE8E023C352940044F70C /* appfat.h */,
 				D125704523C0D1A40068817F /* art_draw.cpp */,
 				D125704823C0D1A40068817F /* art.cpp */,
 				30849DCC74AB44A38B86C7A4 /* automap.cpp */,
+				D15FE92823C352980044F70C /* automap.h */,
 				D125704323C0D1A30068817F /* button.cpp */,
 				2A5B95B76E6A4F0C99E50442 /* capture.cpp */,
+				D15FE8EE23C352940044F70C /* capture.h */,
 				47930305D44B48AFA3D7264F /* codec.cpp */,
+				D15FE92D23C352980044F70C /* codec.h */,
 				9071838230EC489286337DE1 /* control.cpp */,
+				D15FE91223C352960044F70C /* control.h */,
 				D125706523C0D2530068817F /* controller_motion.cpp */,
 				D125706223C0D2530068817F /* controller.cpp */,
 				D125704723C0D1A40068817F /* credits_lines.cpp */,
 				7BE8E351295E45D48AAB963A /* cursor.cpp */,
+				D15FE91E23C352970044F70C /* cursor.h */,
 				32170A9601F74E808329B567 /* dead.cpp */,
+				D15FE8F223C352940044F70C /* dead.h */,
 				B054F90301D7428AABC4A717 /* debug.cpp */,
+				D15FE92B23C352980044F70C /* debug.h */,
 				D125703E23C0D16A0068817F /* devilution.h */,
 				EFFF816D3CB143E1A6C58AFE /* diablo.cpp */,
 				D146801823C0CDF30024BA92 /* diablo.h */,
 				C25ADA37E96D43439DD67B77 /* doom.cpp */,
+				D15FE8EB23C352940044F70C /* doom.h */,
 				3F89CC4D8BA94E9A9C77C8ED /* drlg_l1.cpp */,
+				D15FE91823C352970044F70C /* drlg_l1.h */,
 				C0F23432219D4C96B5DA293C /* drlg_l2.cpp */,
+				D15FE90923C352960044F70C /* drlg_l2.h */,
 				85EAFDA8BDFF4343B91CB316 /* drlg_l3.cpp */,
+				D15FE92A23C352980044F70C /* drlg_l3.h */,
 				6113871EEC594D41A4035F56 /* drlg_l4.cpp */,
+				D15FE91F23C352970044F70C /* drlg_l4.h */,
 				D14EA83123C1424600EE8E53 /* dsound.h */,
 				B590DF2D0CAD426ABBB05CBB /* dthread.cpp */,
+				D15FE91923C352970044F70C /* dthread.h */,
+				D15FE8F923C352950044F70C /* dx.h */,
 				FB383523975444B39A8C1ACF /* effects.cpp */,
+				D15FE90623C352950044F70C /* effects.h */,
 				2BB2DE80B0444CD79756780F /* encrypt.cpp */,
+				D15FE92123C352970044F70C /* encrypt.h */,
 				CE5DCC6F20684476BC504BA6 /* engine.cpp */,
+				D15FE8EC23C352940044F70C /* engine.h */,
 				7B257D3F80E2438884DEA9F8 /* error.cpp */,
+				D15FE90423C352950044F70C /* error.h */,
 				D125704123C0D1A30068817F /* errorart.cpp */,
 				79DF5B8396DB427E84097A9C /* fault.cpp */,
 				D125707823C0D2DC0068817F /* fonts.cpp */,
 				D125707323C0D2B00068817F /* game_controller.cpp */,
 				D125706323C0D2530068817F /* game_controls.cpp */,
 				AE267FCF99294D54A8531061 /* gamemenu.cpp */,
+				D15FE90023C352950044F70C /* gamemenu.h */,
 				39C69D1B6B2849F288D33ECC /* gendung.cpp */,
+				D15FE91723C352970044F70C /* gendung.h */,
 				77D1108C71624E7DA394330E /* gmenu.cpp */,
+				D15FE91D23C352970044F70C /* gmenu.h */,
 				F7285759B0F94368BD23E14A /* help.cpp */,
+				D15FE90D23C352960044F70C /* help.h */,
 				F02FD639F3C948E4A482BFA9 /* init.cpp */,
+				D15FE91B23C352970044F70C /* init.h */,
 				9D6A6D4EB16846D8B0B24A0F /* interfac.cpp */,
+				D15FE91323C352960044F70C /* interfac.h */,
 				8F7DA655CBB94EC28F9AEA48 /* inv.cpp */,
+				D15FE90523C352950044F70C /* inv.h */,
 				FCBF3CAB8CF14CA8A1E0ED8B /* itemdat.cpp */,
+				D15FE8F823C352940044F70C /* itemdat.h */,
 				3F280B9B2D0B43C9A15C9B8F /* items.cpp */,
+				D15FE92523C352970044F70C /* items.h */,
 				D125707223C0D2B00068817F /* joystick.cpp */,
 				D125707423C0D2B00068817F /* kbcontroller.cpp */,
 				81CC5FF9A2C04B848BD9C4E2 /* lighting.cpp */,
+				D15FE92423C352970044F70C /* lighting.h */,
 				E3E01BC88F2D4D61806E19B2 /* loadsave.cpp */,
+				D15FE8FB23C352950044F70C /* loadsave.h */,
 				234AB08693A64D9EB680EEAB /* mainmenu.cpp */,
+				D15FE90323C352950044F70C /* mainmenu.h */,
 				D125706423C0D2530068817F /* menu_controls.cpp */,
 				D453307175A74B67829F81B6 /* minitext.cpp */,
+				D15FE8F723C352940044F70C /* minitext.h */,
 				D146801723C0CD870024BA92 /* miniwin.h */,
 				82EEE6A1CE804332BE4A0E62 /* misdat.cpp */,
+				D15FE90E23C352960044F70C /* misdat.h */,
 				07BD66488DB549C0BAAABAE0 /* missiles.cpp */,
+				D15FE8ED23C352940044F70C /* missiles.h */,
 				BDCCCEA6F6DB4CA48A798EE3 /* monstdat.cpp */,
+				D15FE92E23C352980044F70C /* monstdat.h */,
 				A65CA0D1672640308B89FDBC /* monster.cpp */,
+				D15FE8FC23C352950044F70C /* monster.h */,
 				B10AE0780A554BB28121B67C /* movie.cpp */,
+				D15FE92723C352980044F70C /* movie.h */,
 				E5F100F408234FCD9E90E7A0 /* mpqapi.cpp */,
+				D15FE90A23C352960044F70C /* mpqapi.h */,
 				14B936D61B6E44A5A617BFB1 /* msg.cpp */,
+				D15FE92C23C352980044F70C /* msg.h */,
 				5EF2CC5CDA474289AC183889 /* msgcmd.cpp */,
 				9F5633AC5C3C4745B042958C /* multi.cpp */,
+				D15FE90723C352950044F70C /* multi.h */,
 				9728969C380B4E73AE51C595 /* nthread.cpp */,
+				D15FE91123C352960044F70C /* nthread.h */,
 				63566ED7C5AE4A3E9124EB7A /* objdat.cpp */,
+				D15FE90823C352960044F70C /* objdat.h */,
 				26844FD59AE54AD792599740 /* objects.cpp */,
+				D15FE8FA23C352950044F70C /* objects.h */,
 				6AC43BF142714BC9A820B846 /* pack.cpp */,
+				D15FE91423C352960044F70C /* pack.h */,
 				DD69BB0F7A30454484A3CDA2 /* palette.cpp */,
+				D15FE8FF23C352950044F70C /* palette.h */,
 				8C79E3303F5F4517942AF6B5 /* path.cpp */,
+				D15FE8EF23C352940044F70C /* path.h */,
 				5C2D6E88C7D94FA2A678C074 /* pfile.cpp */,
+				D15FE91523C352960044F70C /* pfile.h */,
 				7AF28497CE0A427DA54296FE /* player.cpp */,
+				D15FE8F023C352940044F70C /* player.h */,
 				D125706023C0D2530068817F /* plrctrls.cpp */,
 				33B919BA990F4AA6867183F7 /* plrmsg.cpp */,
+				D15FE92623C352970044F70C /* plrmsg.h */,
 				627E1E355C73441DAC7EDD3E /* portal.cpp */,
+				D15FE91623C352960044F70C /* portal.h */,
 				F928C727570C4691AF221C7B /* quests.cpp */,
+				D15FE92923C352980044F70C /* quests.h */,
 				69C5DF531F3E49B28DDDC23B /* render.cpp */,
+				D15FE8F323C352940044F70C /* render.h */,
 				1765A483E8C04DA9A26CA4C9 /* restrict.cpp */,
+				D15FE8F523C352940044F70C /* restrict.h */,
 				D125704623C0D1A40068817F /* scrollbar.cpp */,
 				EA3F9155D52E40A19542C565 /* scrollrt.cpp */,
+				D15FE8F123C352940044F70C /* scrollrt.h */,
 				D125704023C0D1A30068817F /* selok.cpp */,
 				D125704923C0D1A40068817F /* selyesno.cpp */,
 				07E51443B2E94D7D9F0EA813 /* setmaps.cpp */,
+				D15FE90123C352950044F70C /* setmaps.h */,
 				134C4130D88640C386D7251B /* sha.cpp */,
+				D15FE8F423C352940044F70C /* sha.h */,
+				D15FE92023C352970044F70C /* sound.h */,
 				9E50C221509D4A6AAB43FAA4 /* spelldat.cpp */,
+				D15FE8FD23C352950044F70C /* spelldat.h */,
 				A6DDB5DF88264723867DA5C8 /* spells.cpp */,
+				D15FE90F23C352960044F70C /* spells.h */,
 				FD700C9E75514460B3C77540 /* stores.cpp */,
+				D15FE90B23C352960044F70C /* stores.h */,
 				9429C3C795274560B7EC0B45 /* sync.cpp */,
+				D15FE8FE23C352950044F70C /* sync.h */,
 				D125704223C0D1A30068817F /* text_draw.cpp */,
 				D125703F23C0D1A30068817F /* text.cpp */,
 				AD5BB016735E4C5C8AEB62E7 /* textdat.cpp */,
+				D15FE91C23C352970044F70C /* textdat.h */,
 				515AECF40B104947A5DA27DE /* themes.cpp */,
+				D15FE8F623C352940044F70C /* themes.h */,
 				C326465DF7364DC7B01B20E3 /* tmsg.cpp */,
+				D15FE90C23C352960044F70C /* tmsg.h */,
 				D125706123C0D2530068817F /* touch.cpp */,
 				86C00ABB0BC943C7B6D34557 /* town.cpp */,
+				D15FE91A23C352970044F70C /* town.h */,
 				9133F997060644F785B2ECAB /* towners.cpp */,
+				D15FE91023C352960044F70C /* towners.h */,
 				70FD6A04AFA14672B9A7EA73 /* track.cpp */,
+				D15FE92223C352970044F70C /* track.h */,
 				886307E03CAB4CDA8C97E92D /* trigs.cpp */,
+				D15FE90223C352950044F70C /* trigs.h */,
 				D125704423C0D1A40068817F /* ttf_render_wrapped.cpp */,
 				01A06EAA915F4FDABDCDB765 /* wave.cpp */,
+				D15FE92323C352970044F70C /* wave.h */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -748,11 +858,7 @@
 			isa = PBXGroup;
 			children = (
 				CE2DB26622C7D9B40053589E /* libSDL2.a */,
-				D1686DA123C0C55400F713E4 /* libSDL2.dylib */,
 				CE2DB26822C7D9B40053589E /* libSDL2.a */,
-				D1686DA323C0C55400F713E4 /* libSDL2.dylib */,
-				D1686DA523C0C55400F713E4 /* libSDLmain.a */,
-				D1686DA723C0C55400F713E4 /* libSDLmain.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1038,34 +1144,6 @@
 			fileType = archive.ar;
 			path = libSDL2_ttf.a;
 			remoteRef = CEDCFDBC22C7D7F2006A4224 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D1686DA123C0C55400F713E4 /* libSDL2.dylib */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libSDL2.dylib;
-			remoteRef = D1686DA023C0C55400F713E4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D1686DA323C0C55400F713E4 /* libSDL2.dylib */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libSDL2.dylib;
-			remoteRef = D1686DA223C0C55400F713E4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D1686DA523C0C55400F713E4 /* libSDLmain.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libSDLmain.a;
-			remoteRef = D1686DA423C0C55400F713E4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D1686DA723C0C55400F713E4 /* libSDLmain.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libSDLmain.a;
-			remoteRef = D1686DA623C0C55400F713E4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -1955,7 +2033,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = EH6UZ23Q2R;
+				DEVELOPMENT_TEAM = H4Z9Z4RD2G;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -1989,11 +2067,11 @@
 				);
 				INFOPLIST_FILE = "Xcode-iOS/devilutionx/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"${SOURCE_ROOT}/Xcode-iOS/Debug-iphonesimulator",
-					"${SOURCE_ROOT}/Xcode-iOS/Debug-iphoneos",
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "${SOURCE_ROOT}/Xcode-iOS/Debug-iphoneos";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				OTHER_LDFLAGS = (
@@ -2002,7 +2080,7 @@
 					"-fsanitize=address",
 					"-fsanitize-recover=address",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = diasurgical.devilutionx.ios;
+				PRODUCT_BUNDLE_IDENTIFIER = dsignal.devilutionx.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SYSTEM_HEADER_SEARCH_PATHS = /usr/local/Cellar/libsodium/1.0.18/include;
@@ -2047,7 +2125,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = EH6UZ23Q2R;
+				DEVELOPMENT_TEAM = H4Z9Z4RD2G;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -2075,14 +2153,15 @@
 					"${SOURCE_ROOT}/SDL2_ttf",
 					"${SOURCE_ROOT}/SDL2_mixer",
 					"${SOURCE_ROOT}/SDL/src/video/uikit",
+					"${SOURCE_ROOT}/Xcode-iOS",
 				);
 				INFOPLIST_FILE = "Xcode-iOS/devilutionx/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"${SOURCE_ROOT}/Xcode-iOS/Debug-iphonesimulator",
-					"${SOURCE_ROOT}/Xcode-iOS/Debug-iphoneos",
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "${SOURCE_ROOT}/Xcode-iOS/Debug-iphoneos";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				OTHER_LDFLAGS = (
@@ -2091,7 +2170,7 @@
 					"-fsanitize=address",
 					"-fsanitize-recover=address",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = diasurgical.devilutionx.ios;
+				PRODUCT_BUNDLE_IDENTIFIER = dsignal.devilutionx.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SYSTEM_HEADER_SEARCH_PATHS = /usr/local/Cellar/libsodium/1.0.18/include;
@@ -2137,7 +2216,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = EH6UZ23Q2R;
+				DEVELOPMENT_TEAM = H4Z9Z4RD2G;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -2165,14 +2244,15 @@
 					"${SOURCE_ROOT}/SDL2_ttf",
 					"${SOURCE_ROOT}/SDL2_mixer",
 					"${SOURCE_ROOT}/SDL/src/video/uikit",
+					"${SOURCE_ROOT}/Xcode-iOS",
 				);
 				INFOPLIST_FILE = "Xcode-iOS/devilutionx/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"${SOURCE_ROOT}/Xcode-iOS/Debug-iphonesimulator",
-					"${SOURCE_ROOT}/Xcode-iOS/Debug-iphoneos",
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "${SOURCE_ROOT}/Xcode-iOS/Debug-iphoneos";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				OTHER_LDFLAGS = (
@@ -2181,7 +2261,7 @@
 					"-fsanitize=address",
 					"-fsanitize-recover=address",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = diasurgical.devilutionx.ios;
+				PRODUCT_BUNDLE_IDENTIFIER = dsignal.devilutionx.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SYSTEM_HEADER_SEARCH_PATHS = /usr/local/Cellar/libsodium/1.0.18/include;
@@ -2227,7 +2307,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = EH6UZ23Q2R;
+				DEVELOPMENT_TEAM = H4Z9Z4RD2G;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -2255,14 +2335,15 @@
 					"${SOURCE_ROOT}/SDL2_ttf",
 					"${SOURCE_ROOT}/SDL2_mixer",
 					"${SOURCE_ROOT}/SDL/src/video/uikit",
+					"${SOURCE_ROOT}/Xcode-iOS",
 				);
 				INFOPLIST_FILE = "Xcode-iOS/devilutionx/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"${SOURCE_ROOT}/Xcode-iOS/Debug-iphonesimulator",
-					"${SOURCE_ROOT}/Xcode-iOS/Debug-iphoneos",
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "${SOURCE_ROOT}/Xcode-iOS/Debug-iphoneos";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				OTHER_LDFLAGS = (
@@ -2271,7 +2352,7 @@
 					"-fsanitize=address",
 					"-fsanitize-recover=address",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = diasurgical.devilutionx.ios;
+				PRODUCT_BUNDLE_IDENTIFIER = dsignal.devilutionx.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SYSTEM_HEADER_SEARCH_PATHS = /usr/local/Cellar/libsodium/1.0.18/include;
